@@ -62,7 +62,7 @@
         <div class="modal-content">
             <div id="UploadDoc" class="modal-body">
                 <div id="UploadContent">
-                    @using (Html.BeginForm("UploadDocument", "ShippingOrder", FormMethod.Post, new { id = "uploader", enctype = "multipart/form-data" }))
+                    @using (Html.BeginForm("UploadDocument", "uploader", FormMethod.Post, new { id = "uploader", enctype = "multipart/form-data" }))
                     {
                         <h2>Upload a File</h2>
                         <br />
